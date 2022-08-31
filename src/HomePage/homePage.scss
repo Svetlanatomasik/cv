@@ -63,22 +63,117 @@
       }
 
       ul {
-        padding: 20px 20px 20px 80px;
+        padding: 0 20px 35px 80px;
+
+        li {
+          // margin: 10px 0;
+        }
+      }
+
+      .contact {
+        ul {
+          li::marker {
+            font-size: 35px;
+          }
+
+          li:nth-child(1) {
+            list-style: url("../Images/address.svg");
+          }
+
+          li:nth-child(2) {
+            list-style: url("../Images/mobile.svg");
+          }
+
+          li:nth-child(3) {
+            list-style: url("../Images/gmail.svg");
+          }
+        }
+      }
+
+      .social {
+        ul {
+          li::marker {
+            font-size: 35px;
+          }
+          li:nth-child(1) {
+            list-style: url("../Images/linkedIn.svg");
+          }
+          li:nth-child(2) {
+            list-style: url("../Images/github.svg");
+          }
+        }
+      }
+
+      .personal-skills {
+        list-style: url("../Images/sun.svg");
+
+        ul {
+          li {
+            padding: 6px 0;
+          }
+        }
+      }
+
+      .languages {
+        list-style: url("../Images/sun.svg");
+
+        ul {
+          li {
+            padding: 6px 0;
+          }
+        }
       }
     }
 
     .work-info {
       width: 70%;
-      // background-image: url("../Images/yellowBcg.png");
       background-color: #f9ff98;
+
+      .title {
+        font-size: 35px;
+        padding: 5px;
+        letter-spacing: 2px;
+        word-spacing: 1.4px;
+        color: #9faff3;
+        font-weight: 700;
+        text-decoration: none solid rgb(68, 68, 68);
+        font-style: italic;
+        font-variant: small-caps;
+        text-transform: none;
+        text-shadow: 6px 5px 9px #ffffff;
+        border-bottom: 2px solid #9faff3;
+      }
 
       .my-projects {
         border-radius: 5px;
         margin: 30px;
-        padding: 20px;
+        padding: 40px;
         background-image: url("../Images/yellowBcg.png");
         -webkit-box-shadow: 0px 0px 16px -3px #000000;
         box-shadow: 0px 0px 16px -3px #000000;
+
+        ul {
+          padding: 20px 0;
+          display: flex;
+          justify-content: space-between;
+          list-style: none;
+
+          a {
+            background-color: #9faff3;
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover {
+              background-color: black;
+              color: white;
+            }
+          }
+        }
       }
 
       .it-skills {
@@ -88,6 +183,16 @@
         background-image: url("../Images/yellowBcg.png");
         -webkit-box-shadow: 0px 0px 16px -3px #000000;
         box-shadow: 0px 0px 16px -3px #000000;
+        list-style: url("../Images/sun.svg");
+
+        ul {
+          margin-top: 10px;
+          padding: 5px 0;
+
+          li {
+            padding-top: 6px;
+          }
+        }
       }
 
       .education {
@@ -97,6 +202,22 @@
         background-image: url("../Images/yellowBcg.png");
         -webkit-box-shadow: 0px 0px 16px -3px #000000;
         box-shadow: 0px 0px 16px -3px #000000;
+
+        ul {
+          list-style: url("../Images/sun.svg");
+          margin: 10px 0;
+
+          .education-place {
+            letter-spacing: 0px;
+            font-weight: 550;
+            padding: 10px 0;
+          }
+
+          .description {
+            list-style: none;
+            padding-left: 40px;
+          }
+        }
       }
 
       .work-experience {
@@ -106,6 +227,15 @@
         background-image: url("../Images/yellowBcg.png");
         -webkit-box-shadow: 0px 0px 16px -3px #000000;
         box-shadow: 0px 0px 16px -3px #000000;
+
+        ul {
+          list-style: url("../Images/sun.svg");
+          margin: 10px 0;
+
+          li {
+            padding-top: 6px;
+          }
+        }
       }
     }
   }

@@ -22,11 +22,10 @@ function HomePage() {
         <div className="info">
           <div className="contact">
             <h5>CONTACT:</h5>
-
             <ul>
               <li>Address: Belgrade, Serbia</li>
               <li>Phone: +381 63 813 2648</li>
-              <li>Email: </li>
+              <li>Email: seka.corazon@gmail.com</li>
             </ul>
           </div>
 
@@ -63,9 +62,24 @@ function HomePage() {
 
         <div className="work-info">
           <div className="my-projects">
-            <h3>Projects:</h3>
-            My projects created with react and sass:
-            <a
+            <div className="title">Projects:</div>
+            <ul>
+              <li>Links to projects created with react and sass:</li>
+              <li>
+                <a href="">FitBoss</a>
+              </li>
+              <li>
+                <a href="">My CV</a>
+              </li>
+              <li>
+                <a href="">Hiring Company</a>
+              </li>
+              <li>
+                <a href="">Bit show</a>
+              </li>
+            </ul>
+
+            {/* <a
               className="fitboss"
               href=""
               target="_blank"
@@ -91,11 +105,11 @@ function HomePage() {
             >
               {" "}
               Hiring Company{" "}
-            </a>
+            </a> */}
           </div>
 
           <div className="it-skills">
-            IT skills:
+            <div className="title">IT skills:</div>
             <ul>
               <li>HTML5</li>
               <li>CSS</li>
@@ -112,20 +126,28 @@ function HomePage() {
           </div>
 
           <div className="education">
-            Education:
-            <h5>2022 BIT, Belgrade Institute of Technology</h5>
-            Industry leading, highly intensive 10 week (400 hours) front-end
-            boot camp
-            <div>2011-2015 Medical school </div>
-            Pharmacy Technicians
+            <div className="title">Education:</div>
+            <ul>
+              <li className="education-place">
+                2022 BIT, Belgrade Institute of Technology
+              </li>
+              <li className="description">
+                Industry leading, highly intensive 10 week (400 hours) front-end
+                boot camp
+              </li>
+              <li className="education-place">2011-2015 Medical school</li>
+              <li className="description">Pharmacy Technicians</li>
+            </ul>
           </div>
 
           <div className="work-experience">
-            Work experience:
-            <div>2018-2019 Lilly Drogerie, Belgrade - Pharmacy Technicians</div>
-            <div>
-              2020-2021 Apoteka Dispersa, Belgrade - Pharmacy Technicians
-            </div>
+            <div className="title">Work experience</div>
+            <ul>
+              <li>2018-2019 Lilly Drogerie, Belgrade - Pharmacy Technicians</li>
+              <li>
+                2020-2021 Apoteka Dispersa, Belgrade - Pharmacy Technicians
+              </li>
+            </ul>
           </div>
         </div>
       </div>
