@@ -32,8 +32,18 @@ function HomePage() {
           <div className="social">
             <h5>SOCIAL:</h5>
             <ul>
-              <li>LinkedIn: </li>
-              <li>GitHub: </li>
+              <li>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/svetlana-toma%C5%A1ik-a8382224a/">
+                  https://www.linkedin.com/in/svetlana
+                </a>
+              </li>
+              <li>
+                GitHub:
+                <a href="https://github.com/Svetlanatomasik">
+                  https://github.com/Svetlanatomasik
+                </a>
+              </li>
             </ul>
           </div>
 
