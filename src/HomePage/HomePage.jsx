@@ -76,46 +76,27 @@ function HomePage() {
             <ul>
               <li>Links to projects created with react and sass:</li>
               <li>
-                <a href="">FitBoss</a>
+                <a
+                  target="_blank"
+                  href="https://github.com/Svetlanatomasik/fitboss"
+                >
+                  FitBoss
+                </a>
               </li>
               <li>
-                <a href="">My CV</a>
+                <a target="_blank" href="https://github.com/Svetlanatomasik/cv">
+                  My CV
+                </a>
               </li>
               <li>
-                <a href="">Hiring Company</a>
+                <a
+                  target="_blank"
+                  href="https://github.com/Svetlanatomasik/hiring-company"
+                >
+                  Hiring Company
+                </a>
               </li>
-              <li>
-                <a href="">Bit show</a>
-              </li>
-            </ul>
-
-            {/* <a
-              className="fitboss"
-              href=""
-              target="_blank"
-              // rel="noopener noreferrer"
-            >
-              {" "}
-              FitBoss{" "}
-            </a>
-            <a
-              className="fitboss"
-              href=""
-              target="_blank"
-              // rel="noopener noreferrer"
-            >
-              {" "}
-              My CV{" "}
-            </a>
-            <a
-              className="fitboss"
-              href=""
-              target="_blank"
-              // rel="noopener noreferrer"
-            >
-              {" "}
-              Hiring Company{" "}
-            </a> */}
+              </ul>
           </div>
 
           <div className="it-skills">
