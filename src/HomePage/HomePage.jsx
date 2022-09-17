@@ -78,19 +78,23 @@ function HomePage() {
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Svetlanatomasik/fitboss"
                 >
                   FitBoss
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://github.com/Svetlanatomasik/cv">
+                <a target="_blank" 
+                rel="noreferrer"
+                href="https://github.com/Svetlanatomasik/cv">
                   My CV
                 </a>
               </li>
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Svetlanatomasik/hiring-company"
                 >
                   Hiring Company
