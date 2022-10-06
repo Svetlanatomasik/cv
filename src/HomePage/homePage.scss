@@ -87,6 +87,31 @@
         }
       }
 
+      .download-cv {
+        list-style: url("../Images/sun.svg");
+
+        ul {
+          li::marker {
+            font-size: 35px;
+          }
+
+          a {
+            border-radius: 3px;
+            padding: 0 5px;
+            text-decoration: none;
+            color: #f9ff98;
+            // cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover {
+              background-color: #000000;
+              color: white;
+              border: 1px solid white;
+            }
+          }
+        }
+      }
+
       .social {
         ul {
           li::marker {

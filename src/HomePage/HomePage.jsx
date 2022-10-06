@@ -2,6 +2,7 @@ import React from "react";
 import "./homePage.scss";
 import SearchJob from "../Images/job.jpg";
 import cvImg from "../Images/cvImg.jpg";
+import MyCv from "../Pdf/MyCv.pdf";
 
 function HomePage() {
   return (
@@ -20,6 +21,16 @@ function HomePage() {
 
       <div className="main">
         <div className="info">
+          <div className="download-cv">
+            <ul>
+              <li>
+                <a href={MyCv} download="svetlana_tomasik_CV">Download CV</a>
+              </li>
+            </ul>
+
+          </div>
+
+
           <div className="contact">
             <h5>CONTACT:</h5>
             <ul>
@@ -35,13 +46,13 @@ function HomePage() {
               <li>
                 LinkedIn:
                 <a href="https://www.linkedin.com/in/svetlana-toma%C5%A1ik-a8382224a/">
-                  https://www.linkedin.com/in/svetlana
+                  www.linkedin.com/svetlana
                 </a>
               </li>
               <li>
                 GitHub:
                 <a href="https://github.com/Svetlanatomasik">
-                  https://github.com/Svetlanatomasik
+                  github.com/Svetlanatomasik
                 </a>
               </li>
             </ul>
