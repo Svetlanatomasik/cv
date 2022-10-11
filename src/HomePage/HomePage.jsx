@@ -9,7 +9,9 @@ function HomePage() {
     <div className="home-page">
       <div className="personal-info">
         <div className="header-wrapper">
-          <img className="cv-img" src={cvImg} alt="CV" />
+          {cvImg && (
+              <img className="cv-img" src={cvImg} alt="CV" />
+          )}
           <h1>Svetlana Tomašik</h1>
           <div className="frontend">Junior Frontend developer</div>
         </div>
